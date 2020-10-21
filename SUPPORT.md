@@ -1,7 +1,11 @@
-# Support Questions
+# Support
 
-Telegram Bot SDK's GitHub issue trackers are not intended to provide SDK help or support. Instead, use one of the following channels:
+If you're looking for support for Telegram Bot SDK, here are a few options:
 
-- [PHP Chat](https://phpchat.co/?utm_source=telegram-bot-sdk-gh) Community on Slack.
-- [PHP Chat](https://t.me/PHPChatCo) Community on Telegram.
-- [StackOverflow](https://stackoverflow.com/questions/tagged/telegram-bot) - Please use the tag `telegram-bot-sdk`
+- 📖 [Documentation](https://telegrambotsdk.com/)
+- 💬 [PHP Chat](https://phpchat.co/?utm_source=telegram-bot-sdk-gh) Community on Slack.
+- 🗣 [PHP Chat](https://t.me/PHPChatCo) Community on Telegram.
+- 📚 [telegram-bot-sdk](https://stackoverflow.com/questions/tagged/telegram-bot-sdk) tag on Stack Overflow.
+
+You can also browse the issue tracker for support requests,
+but we encourage everyone to use the channels above instead.
