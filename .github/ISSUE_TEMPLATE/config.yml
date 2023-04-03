@@ -13,7 +13,7 @@ contact_links:
     url: https://t.me/PHPChatCo
     about: 'For any help and support from the community on Telegram'
   - name: 📖 Documentation Issue
-    url: https://github.com/telegram-bot-sdk/docs
-    about: 'For documentation issues, open a pull request at the telegram-bot-sdk/docs repository'
+    url: https://github.com/telegram-bot-sdk/website
+    about: 'For documentation issues, open a pull request at the telegram-bot-sdk/website repository'
     
   
