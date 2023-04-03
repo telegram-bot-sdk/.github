@@ -57,7 +57,7 @@ body:
     id: stacktrace
     attributes:
       label: Error stacktrace (if any)
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks. Make sure to **REDACT TOKEN** & other SENSITIVE info.
+      description: "Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks. Make sure to **REDACT TOKEN** & other SENSITIVE info."
       render: shell
     validations:
       required: false
@@ -69,11 +69,11 @@ body:
       description: "Any other context about the problem: log messages, screenshots, etc."
     validations:
       required: false
-      
+
   - type: textarea
-      id: solution
-      attributes:
-        label: Possible Solution
-        description: If you have suggestions on a fix/reason for the bug.
-      validations:
-        required: false
+    id: solution
+    attributes:
+      label: Possible Solution
+      description: "If you have suggestions on a fix/reason for the bug."
+    validations:
+      required: false
