@@ -1,0 +1,79 @@
+name: 🐛 Bug Report
+title: "[Bug]: "
+description: Something not working as expected? 🐞
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ensure that the bug is not not fixed in recent releases. 
+        Ensure that you will not create a duplicate: Use the GitHub issue search.
+        For community help, please use discussions.
+
+  - type: input
+    id: php-version
+    attributes:
+      label: PHP version
+      description: Your PHP version
+      placeholder: #.#.#
+    validations:
+      required: true
+
+  - type: input
+    id: package-version
+    attributes:
+      label: Telegram Bot SDK version
+      placeholder: #.#.#
+      description: Output from `composer show telegram-bot-sdk/telegram-bot-sdk | grep versions`
+    validations:
+      required: true
+
+  - type: input
+    id: laravel-version
+    attributes:
+      label: Laravel version (if any)
+      placeholder: #.#.#
+      description: Output from `composer show laravel/framework | grep versions`
+    validations:
+      required: false
+      
+  - type: textarea
+    id: steps
+    attributes:
+      label: What happened?
+      description: A clear and concise description of the problem.
+    validations:
+      required: true
+      
+  - type: textarea
+    id: steps
+    attributes:
+      label: Code To Reproduce the bug
+      description: Valid PHP code to reproduce the bug
+    validations:
+      required: true
+
+  - type: textarea
+    id: stacktrace
+    attributes:
+      label: Error stacktrace (if any)
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks. Make sure to **REDACT TOKEN** & other SENSITIVE info.
+      render: shell
+    validations:
+      required: false
+      
+  - type: textarea
+    id: stacktrace
+    attributes:
+      label: Additional Context
+      description: Any other context about the problem: log messages, screenshots, etc.
+    validations:
+      required: false
+      
+  - type: textarea
+      id: solution
+      attributes:
+        label: Possible Solution
+        description: If you have suggestions on a fix/reason for the bug.
+      validations:
+        required: false
