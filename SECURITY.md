@@ -9,4 +9,4 @@ After each new major release, the previous release will be supported for no less
 
 ## Reporting a Vulnerability
 
-If you discover a security vulnerability within this package, please email Syed at `syed at lukonet.com`. All security vulnerabilities will be promptly addressed. Please do not disclose security-related issues publicly until a fix has been announced.
+If you discover a security vulnerability within this package, please email Syed at `security at telegram-bot-sdk.com`. All security vulnerabilities will be promptly addressed. Please do not disclose security-related issues publicly until a fix has been announced.
