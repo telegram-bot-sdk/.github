@@ -66,7 +66,7 @@ body:
     id: additional-context
     attributes:
       label: Additional Context
-      description: Any other context about the problem: log messages, screenshots, etc.
+      description: "Any other context about the problem: log messages, screenshots, etc."
     validations:
       required: false
       
