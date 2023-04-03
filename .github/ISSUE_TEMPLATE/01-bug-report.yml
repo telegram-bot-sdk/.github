@@ -38,7 +38,7 @@ body:
       required: false
       
   - type: textarea
-    id: steps
+    id: description
     attributes:
       label: What happened?
       description: A clear and concise description of the problem.
@@ -49,7 +49,7 @@ body:
     id: steps
     attributes:
       label: Code To Reproduce the bug
-      description: Valid PHP code to reproduce the bug
+      description: Valid PHP code to reproduce the bug. Include config data without Token.
     validations:
       required: true
 
@@ -63,7 +63,7 @@ body:
       required: false
       
   - type: textarea
-    id: stacktrace
+    id: additional-context
     attributes:
       label: Additional Context
       description: Any other context about the problem: log messages, screenshots, etc.
