@@ -1,0 +1,32 @@
+name: Code Style
+
+on:
+  workflow_call:
+    inputs:
+      preset:
+        description: "Preset to use"
+        required: false
+        default: laravel
+        type: string
+
+jobs:
+  code-style:
+    if: "!contains(github.event.head_commit.message, 'skip ci')"
+
+    name: "Laravel Pint (Style)"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: "Laravel Pint"
+        uses: aglipanci/laravel-pint-action@2.2.0
+        with:
+          preset: ${{ inputs.preset }}
+
+      - name: Commit changes to GitHub
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Fix styling
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
