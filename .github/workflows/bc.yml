@@ -6,7 +6,7 @@ on:
       php:
         description: PHP versions to test, separated by comma.
         default: "8.1"
-        required: true
+        required: false
         type: string
       tools:
         description: Tools to test, separated by comma.
