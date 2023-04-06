@@ -1,4 +1,4 @@
-name: bc
+name: BC
 
 on:
   workflow_call:
